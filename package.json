@@ -1,0 +1,26 @@
+{
+  "name": "kickstart",
+  "version": "1.0.0",
+  "description": "better kickstarter app",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "dev": "node server.js"
+  },
+  "author": "viko",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^9.0.1",
+    "ganache-cli": "^6.12.1",
+    "jquery": "^3.5.1",
+    "mocha": "^8.2.1",
+    "next": "^4.1.4",
+    "next-routes": "^1.4.2",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "semantic-ui-react": "^2.0.1",
+    "solc": "^0.4.25",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "^1.3.1"
+  }
+}
